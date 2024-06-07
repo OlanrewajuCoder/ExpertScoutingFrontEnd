@@ -5,7 +5,6 @@ import { fetchData } from "../../../utils/utils";
 
 const Record = ({ name, status, company, role, id }) => {
   const deleteScout = async (_id) => {
-    console.log(_id);
     const res = await fetchData("PATCH", `admin/deactivate-scout/${_id}`);
     if (res.status === 201) {
       window.location.reload();
