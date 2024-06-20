@@ -15,12 +15,12 @@
 
 html,
 * {
-  font-size: 62.5%;
+  font-size: 63.5%;
   box-sizing: border-box;
 }
 
 a {
-  font-weight: 500;
+  font-weight: 480;
   color: #646cff;
   text-decoration: inherit;
 }
@@ -41,7 +41,7 @@ body {
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+  line-height: 1.12;
 }
 
 /* button {
